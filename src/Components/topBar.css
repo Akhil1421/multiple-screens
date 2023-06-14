@@ -1,0 +1,58 @@
+.bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #55d6c2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color : white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times, serif;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap : 0.2rem;
+}
+.show{
+    display: flex;
+}
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    gap : 2rem;
+}
+.info{
+    display: flex;
+    gap : 1rem;
+}
+.cont{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+.sidebar{
+    height: 550px;
+    background-color: #e0dfdf;
+    width: fit-content;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap : 1rem;
+    padding-right: 1rem;
+}
+.single{
+    display: flex;
+    gap : 0.2rem;
+    cursor: pointer;
+    height: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 15rem;
+}
+
+.mid{
+    display: grid;
+    place-content: center;
+}

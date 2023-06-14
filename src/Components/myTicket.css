@@ -1,0 +1,50 @@
+.my-ticket{
+    margin-left: 10rem;
+}
+.below-search{
+    display: flex;
+}
+.below-search>input{
+    width: 6rem;
+}
+.below-search>label, select{
+    margin-left : 1rem;
+    margin-top: 1rem;
+}
+select{
+    background-color: #dadada;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+tr{
+    display: flex;
+    gap : 1rem;
+}
+
+th{
+    width: 8rem;
+}
+td{
+    width: 8rem;
+    margin-top: 1rem;
+}
+td>button{
+    width : 4rem;
+}
+.row-gap, .row-one{
+    display: flex;
+    gap : 3rem;
+    background-color: #dadada;
+}
+.row-gap{
+    padding-bottom: 1rem;
+    background-color: #dedede;
+}
+.warn{
+    color : red;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+td>button{
+    cursor: auto;
+}

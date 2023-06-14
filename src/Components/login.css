@@ -1,0 +1,92 @@
+.App{
+    background-color: black;
+    place-content: center;
+    display: grid;
+}
+.login-outer{
+    background-color: #55d6c2;
+    display: flex;
+    justify-content: center;
+    min-height: 624px;
+    align-items: center;
+}
+input{
+    min-height: 2rem;
+    min-width: 20rem;
+}
+.login-in{
+    display: flex;
+    justify-content: center;
+    min-width: 40rem;
+    min-height: 25rem;
+    background-color: #a2e1d7;
+}
+.login-inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap : 1rem;
+    margin-top: 3rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap : 0.5rem;
+}
+.others{
+    display: flex;
+    font-family: 'Calibri';
+    justify-content: space-between;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.sbtR>button{
+    background-color: #296ef2;
+    border : #296ef2;
+    min-height: 2.5rem;
+    min-width: 8rem;
+}.sbtL>button{
+    background-color: #03cc17;
+    border : #03cc17;
+    min-height: 2.5rem;
+    min-width: 8rem;
+}
+.twos{
+    margin-top: 2rem;
+}
+.three{
+    margin-top : -1rem;
+}
+.twoBtns{
+    display: flex;
+    gap : 1rem;
+    margin: 2rem;
+    flex-direction: column;
+}
+.one{
+    font-size: 1rem;
+    color: red;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.twoBtns>button{
+    min-height: 2.5rem;
+    min-width: 8rem;
+}
+.one>a{
+    color: red;
+}
+.others2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
